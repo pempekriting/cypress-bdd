@@ -1,16 +1,28 @@
 {
-    "watchForFileChanges": true,
-    "viewportWidth": 1200,
-    "viewportHeight": 720,
-    "waitForAnimations": true,
-    "defaultCommandTimeout": 5000,
-    "execTimeout": 60000,
-    "pageLoadTimeout": 100000,
-    "requestTimeout": 15000,
-    "responseTimeout": 15000,
-    "video": false,
-    "failOnStatusCode": false,
-    "ignoreTestFiles": ["*.js", "*.md"],
-    "testFiles": "**/*.{feature,features}"
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": true,
+    "json": false
+  },
+  "screenshotsFolder": "cypress/screenshots/cucumber-tests",
+  "watchForFileChanges": true,
+  "viewportWidth": 1200,
+  "viewportHeight": 720,
+  "waitForAnimations": true,
+  "defaultCommandTimeout": 5000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 100000,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "video": false,
+  "failOnStatusCode": false,
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "testFiles": "**/*.{feature,features}",
+  "projectId": "apkb53"
 }
- 
