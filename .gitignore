@@ -89,3 +89,9 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#report
+*/results/*
+
+#screenshots
+cypress/screenshots

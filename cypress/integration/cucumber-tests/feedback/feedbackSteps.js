@@ -1,5 +1,5 @@
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
-import FeedbackPage from './feedbackPage'
+import FeedbackPage from '../../../page-objects/pages/feedbackPage'
 
 Given('I open feedback page', () => {
     FeedbackPage.visit()
